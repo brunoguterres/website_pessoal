@@ -1,0 +1,4 @@
+.center-image {
+    display: block; /* Torna a imagem um bloco para aplicar margin: auto */
+    margin: 0 auto; /* Centraliza horizontalmente */
+}

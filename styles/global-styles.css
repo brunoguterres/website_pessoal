@@ -1,0 +1,67 @@
+/* Adicione os estilos globais aqui */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* Definir altura do corpo como 100% da altura da janela de visualização */
+    display: flex; /* Usar flexbox para alinhar os itens verticalmente */
+    flex-direction: column; /* Alinhar os itens verticalmente */
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    background-color: #444;
+    color: #fff;
+    padding: 10px;
+    text-align: center; /* Alinhar itens do menu horizontalmente */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px; /* Adicionando margem entre os itens do menu */
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+}
+
+main {
+    padding: 20px;
+    flex-grow: 1; /* Permitir que o conteúdo principal ocupe o espaço restante */
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    position: absolute; /* Posicionamento absoluto */
+    top: 20px; /* Distância do topo */
+    right: 20px; /* Distância da direita */
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}

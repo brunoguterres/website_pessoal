@@ -1,0 +1,18 @@
+/* Estilos específicos para a página login.html */
+form {
+    text-align: center;
+}
+
+form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+form input {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+form button {
+    margin-top: 10px;
+}
